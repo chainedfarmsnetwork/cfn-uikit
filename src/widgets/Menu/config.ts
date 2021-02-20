@@ -10,11 +10,11 @@ export const links = [
     items: [
       {
         label: "Exchange",
-        href: "https://exchange.pancakeswap.finance",
+        href: "https://exchange.vikingswap.finance",
       },
       {
         label: "Liquidity",
-        href: "https://exchange.pancakeswap.finance/#/pool",
+        href: "https://exchange.vikingswap.finance/#/pool",
       },
     ],
   },
@@ -22,36 +22,6 @@ export const links = [
     label: "Farms",
     icon: "FarmIcon",
     href: "/farms",
-  },
-  {
-    label: "Pools",
-    icon: "PoolIcon",
-    href: "/syrup",
-  },
-  {
-    label: "Lottery",
-    icon: "TicketIcon",
-    href: "/lottery",
-  },
-  {
-    label: "NFT",
-    icon: "NftIcon",
-    href: "/nft",
-  },
-  {
-    label: "Profile & Teams",
-    icon: "GroupsIcon",
-    items: [
-      {
-        label: "Leaderboard",
-        href: "/",
-      },
-      {
-        label: "YourProfile",
-        href: "/",
-      },
-    ],
-    calloutClass: "rainbow",
   },
   {
     label: "Info",
@@ -76,38 +46,20 @@ export const links = [
     ],
   },
   {
-    label: "IFO",
-    icon: "IfoIcon",
-    items: [
-      {
-        label: "Next",
-        href: "/ifo",
-      },
-      {
-        label: "History",
-        href: "/ifo/history",
-      },
-    ],
-  },
-  {
     label: "More",
     icon: "MoreIcon",
     items: [
-      // {
-      //   label: "Voting",
-      //   href: "https://voting.pancakeswap.finance",
-      // },
       {
         label: "Github",
-        href: "https://github.com/goosedefi/",
+        href: "https://github.com/VikingDefi/",
       },
       {
         label: "Docs",
-        href: "https://goosedefi.gitbook.io/goose-finance/",
+        href: "https://vikingswap.gitbook.io/viking-swap/",
       },
       {
         label: "Blog",
-        href: "https://goosefinance.medium.com/",
+        href: "https://viking-swap.medium.com/",
       },
     ],
   },
@@ -120,62 +72,18 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/goosedefi",
+        href: "http://t.me/VikingSwap",
       },
-      // {
-      //   label: "Bahasa Indonesia",
-      //   href: "https://t.me/PancakeSwapIndonesia",
-      // },
-      // {
-      //   label: "中文",
-      //   href: "https://t.me/PancakeSwap_CN",
-      // },
-      // {
-      //   label: "Tiếng Việt",
-      //   href: "https://t.me/PancakeSwapVN",
-      // },
-      // {
-      //   label: "Italiano",
-      //   href: "https://t.me/pancakeswap_ita",
-      // },
-      // {
-      //   label: "русский",
-      //   href: "https://t.me/pancakeswap_ru",
-      // },
-      // {
-      //   label: "Türkiye",
-      //   href: "https://t.me/pancakeswapturkiye",
-      // },
-      // {
-      //   label: "Português",
-      //   href: "https://t.me/PancakeSwapPortuguese",
-      // },
-      // {
-      //   label: "Español",
-      //   href: "https://t.me/PancakeswapEs",
-      // },
-      // {
-      //   label: "日本語",
-      //   href: "https://t.me/pancakeswapjp",
-      // },
-      // {
-      //   label: "Français",
-      //   href: "https://t.me/pancakeswapfr",
-      // },
       {
         label: "Announcements",
-        href: "https://t.me/goosefinanceann",
+        href: "https://t.me/vikingswapannouncements",
       },
-      // {
-      //   label: "Whale Alert",
-      //   href: "https://t.me/PancakeSwapWhales",
-      // },
     ],
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/FinanceGoose",
+    href: "https://twitter.com/vikingswap",
   },
 ];
 
