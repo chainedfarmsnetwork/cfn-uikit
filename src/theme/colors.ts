@@ -2,10 +2,10 @@ import { Colors } from "./types";
 
 export const baseColors = {
   failure: "#ED4B9E",
-  primary: "#CB48B7", // i.e Buttons primary
-  primaryBright: "#A63A96", // i.e Buttons hover (bright ?)
+  primary: "#E8B100", // i.e Buttons primary
+  primaryBright: "#A5753A", // i.e Buttons hover (bright ?)
   primaryDark: "#660000", // i.e Buttons hover (dark ?)
-  secondary: "#CB48B7", // Hovers
+  secondary: "#E8B100", // Hovers
   success: "#31D0AA",
   warning: "#FFB237",
 };
@@ -23,9 +23,9 @@ export const lightColors: Colors = {
   invertedContrast: "#FFFFFF",
   input: "#eeeaf4",
   tertiary: "#EFF4F5",
-  text: '#69552e',
-  textDisabled: '#998c83',
-  textSubtle: '#CB48B7',
+  text: "#69552E",
+  textDisabled: "#998c83",
+  textSubtle: "#E8B100",
   borderColor: "#E9EAEB",
   card: "#FFFFFF",
   gradients: {
@@ -36,7 +36,7 @@ export const lightColors: Colors = {
 export const darkColors: Colors = {
   ...baseColors,
   ...brandColors,
-  secondary: "#CB48B7",
+  secondary: "#E8B100",
   background: "#343135",
   backgroundDisabled: "#3c3742",
   contrast: "#FFFFFF",
@@ -44,9 +44,9 @@ export const darkColors: Colors = {
   input: "#483f5a",
   // primaryDark: "#0098A1",
   tertiary: "#353547",
-  text: "#EAE2FC",
+  text: "#F9F1E0",
   textDisabled: "#666171",
-  textSubtle: "#CB48B7",
+  textSubtle: "#E8B100",
   borderColor: "#524B63",
   card: "#27262c",
   gradients: {

@@ -33,7 +33,7 @@ it("renders link external link correctly", () => {
           class="sc-dlfnbm dJUqYR"
           color="primary"
           viewBox="0 0 24 24"
-          width="20px"
+          width="26px"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path

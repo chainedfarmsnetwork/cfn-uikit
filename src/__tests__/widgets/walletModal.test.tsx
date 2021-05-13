@@ -33,7 +33,7 @@ it("renders ConnectModal correctly", () => {
               class="sc-dlfnbm kPlhyw"
               color="primary"
               viewBox="0 0 24 24"
-              width="20px"
+              width="26px"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
@@ -405,7 +405,7 @@ it("renders ConnectModal correctly", () => {
               class="sc-dlfnbm gYbuYc"
               color="primary"
               viewBox="0 0 20 20"
-              width="20px"
+              width="26px"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
@@ -451,7 +451,7 @@ it("renders AccountModal correctly", () => {
               class="sc-dlfnbm kPlhyw"
               color="primary"
               viewBox="0 0 24 24"
-              width="20px"
+              width="26px"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
@@ -466,7 +466,7 @@ it("renders AccountModal correctly", () => {
           <div
             class="sc-bdfBwQ dSimpj"
             color="text"
-            font-size="20px"
+            font-size="26px"
             style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 8px;"
           >
             0xb218C5D6aF1F979aC42BC68d98A5A0D796C6aB01
@@ -486,7 +486,7 @@ it("renders AccountModal correctly", () => {
                 class="sc-dlfnbm dJUqYR"
                 color="primary"
                 viewBox="0 0 24 24"
-                width="20px"
+                width="26px"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
@@ -504,7 +504,7 @@ it("renders AccountModal correctly", () => {
                 class="sc-dlfnbm dJUqYR"
                 color="primary"
                 viewBox="0 0 24 24"
-                width="20px"
+                width="26px"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path

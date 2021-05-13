@@ -16,7 +16,7 @@ export const Default: React.FC = () => {
       <Link href="https://styled-system.com/api#flexbox" target="_blank">
         List of applicable props
       </Link>
-      <Flex justifyContent="space-between" mt="40px">
+      <Flex justifyContent="space-between" mt="46px">
         <span>Left</span>
         <span>right</span>
       </Flex>

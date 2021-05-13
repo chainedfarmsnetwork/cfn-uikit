@@ -49,13 +49,13 @@ const StyledButton = styled.button<ButtonProps>`
   align-items: center;
   background-color: ${getButtonVariantProp("background")};
   border: ${getButtonVariantProp("border")};
-  border-radius: 16px;
+  border-radius: 5px;
   box-shadow: ${getButtonVariantProp("boxShadow")};
   color: ${getButtonVariantProp("color")};
   cursor: pointer;
   display: inline-flex;
   font-family: inherit;
-  font-size: 16px;
+  font-size: 22px;
   font-weight: 600;
   /* max-content instead of auto for Safari fix */
   width: ${({ fullWidth }) => (fullWidth ? "100%" : "max-content")};
@@ -64,7 +64,7 @@ const StyledButton = styled.button<ButtonProps>`
   letter-spacing: 0.03em;
   justify-content: center;
   outline: 0;
-  padding: ${({ size }) => (size === "sm" ? "0 16px" : "0 24px")};
+  padding: ${({ size }) => (size === "sm" ? "0 10px" : "0 10px")};
   transition: background-color 0.2s;
   opacity: ${({ isLoading }) => (isLoading ? 0.5 : 1)};
 

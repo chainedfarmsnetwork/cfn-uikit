@@ -26,6 +26,7 @@ export interface NavTheme {
 export interface MenuSubEntry {
   label: string;
   href: string;
+  blankTarget?: boolean;
   calloutClass?: string;
 }
 
@@ -36,11 +37,12 @@ export interface MenuEntry {
   href?: string;
   calloutClass?: string;
   initialOpenState?: boolean;
+  blankTarget?: boolean;
 }
 
 export interface PanelProps {
   isDark: boolean;
-  toggleTheme: (isDark: boolean) => void;
+  toggleTheme?: (isDark: boolean) => void;
   cakePriceUsd?: number;
   currentLang: string;
   langs: LangType[];

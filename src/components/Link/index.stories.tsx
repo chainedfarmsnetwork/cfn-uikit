@@ -10,7 +10,7 @@ export default {
       name: "fontSize",
       table: {
         type: { summary: "string", detail: "Fontsize in px or em" },
-        defaultValue: { summary: "16px" },
+        defaultValue: { summary: "22px" },
       },
       control: {
         type: null,

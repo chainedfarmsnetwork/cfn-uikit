@@ -9,7 +9,7 @@ const Row = styled.div`
   margin-bottom: 32px;
 
   & > button + button {
-    margin-left: 16px;
+    margin-left: 22px;
   }
 `;
 

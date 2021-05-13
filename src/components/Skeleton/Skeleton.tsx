@@ -5,7 +5,7 @@ import { SkeletonProps, animation as ANIMATION, variant as VARIANT } from "./typ
 
 const waves = keyframes`
    from {
-        left: -150px;
+        left: -146px;
     }
     to   {
         left: 100%;
@@ -25,7 +25,7 @@ const pulse = keyframes`
 `;
 
 const Root = styled.div<SkeletonProps>`
-  min-height: 20px;
+  min-height: 26px;
   display: block;
   background-color: ${({ theme }) => theme.colors.backgroundDisabled};
   border-radius: ${({ variant, theme }) => (variant === VARIANT.CIRCLE ? theme.radii.circle : theme.radii.small)};
@@ -48,9 +48,9 @@ const Waves = styled(Root)`
     position: absolute;
     background-image: linear-gradient(90deg, transparent, rgba(243, 243, 243, 0.5), transparent);
     top: 0;
-    left: -150px;
+    left: -146px;
     height: 100%;
-    width: 150px;
+    width: 146px;
     animation: ${waves} 2s cubic-bezier(0.4, 0, 0.2, 1) infinite;
   }
 `;

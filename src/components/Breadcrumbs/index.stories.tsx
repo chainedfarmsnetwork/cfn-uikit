@@ -32,8 +32,8 @@ export const Default: React.FC = () => {
 export const CustomSeparator: React.FC = () => {
   return (
     <Text p="32px">
-      <Text mb="16px">
-        <BreadCrumbs separator={<LogoIcon width="24px" />}>
+      <Text mb="22px">
+        <BreadCrumbs separator={<LogoIcon width="30px" />}>
           <Link href="/" color="secondary" style={{ fontWeight: 400 }}>
             Link
           </Link>
@@ -41,7 +41,7 @@ export const CustomSeparator: React.FC = () => {
           <Text color="textDisabled">Crumb 2</Text>
         </BreadCrumbs>
       </Text>
-      <Text mb="16px">
+      <Text mb="22px">
         <BreadCrumbs separator={<WonIcon width="48px" />}>
           <Link href="/" color="failure" style={{ fontWeight: 400 }}>
             Link

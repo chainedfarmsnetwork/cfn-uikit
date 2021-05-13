@@ -12,7 +12,7 @@ const Row = styled(Flex)`
   margin-bottom: 32px;
   & > button + button,
   & > a + a {
-    margin-left: 16px;
+    margin-left: 22px;
   }
 `;
 

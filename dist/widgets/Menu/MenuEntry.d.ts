@@ -2,6 +2,7 @@ import { DefaultTheme } from "styled-components";
 export interface Props {
     secondary?: boolean;
     isActive?: boolean;
+    blankTarget?: boolean;
     theme: DefaultTheme;
 }
 declare const LinkLabel: import("styled-components").StyledComponent<"div", DefaultTheme, {

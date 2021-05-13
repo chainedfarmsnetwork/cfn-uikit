@@ -37,7 +37,7 @@ export const WithSecondary: React.FC = () => {
         <Button type="button" size="sm" onClick={() => setPrimaryStep(random(1, 100))}>
           Random Primary Progress
         </Button>
-        <Button style={{ marginTop: "16px" }} type="button" size="sm" onClick={() => setSecondaryStep(random(1, 100))}>
+        <Button style={{ marginTop: "22px" }} type="button" size="sm" onClick={() => setSecondaryStep(random(1, 100))}>
           Random Secondary Progress
         </Button>
       </div>
@@ -56,7 +56,7 @@ export const WithSecondaryAndProgressBunny: React.FC = () => {
         <Button type="button" size="sm" onClick={() => setPrimaryStep(random(1, 100))}>
           Random Primary Progress
         </Button>
-        <Button style={{ marginTop: "16px" }} type="button" size="sm" onClick={() => setSecondaryStep(random(1, 100))}>
+        <Button style={{ marginTop: "22px" }} type="button" size="sm" onClick={() => setSecondaryStep(random(1, 100))}>
           Random Secondary Progress
         </Button>
       </div>

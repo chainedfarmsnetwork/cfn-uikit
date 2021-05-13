@@ -47,7 +47,7 @@ it("renders correctly", () => {
           class="sc-bdfBwQ cuuOmQ sc-hKgILt jsGrON"
           color="text"
           viewBox="0 0 256 256"
-          width="128px"
+          width="124px"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path

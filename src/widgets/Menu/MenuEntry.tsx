@@ -4,6 +4,7 @@ import { MENU_ENTRY_HEIGHT } from "./config";
 export interface Props {
   secondary?: boolean;
   isActive?: boolean;
+  blankTarget?: boolean;
   theme: DefaultTheme;
 }
 
@@ -28,8 +29,8 @@ const MenuEntry = styled.div<Props>`
   display: flex;
   align-items: center;
   height: ${MENU_ENTRY_HEIGHT}px;
-  padding: ${({ secondary }) => (secondary ? "0 32px" : "0 16px")};
-  font-size: ${({ secondary }) => (secondary ? "14px" : "16px")};
+  padding: ${({ secondary }) => (secondary ? "0 32px" : "0 22px")};
+  font-size: ${({ secondary }) => (secondary ? "20px" : "22px")};
   background-color: ${({ secondary, theme }) => (secondary ? theme.colors.background : "transparent")};
   color: ${({ theme }) => theme.colors.textSubtle};
   box-shadow: ${({ isActive, theme }) => (isActive ? `inset 4px 0px 0px ${theme.colors.primary}` : "none")};
@@ -63,6 +64,7 @@ const MenuEntry = styled.div<Props>`
 MenuEntry.defaultProps = {
   secondary: false,
   isActive: false,
+  blankTarget: false,
   role: "button",
 };
 

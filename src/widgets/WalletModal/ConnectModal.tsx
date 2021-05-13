@@ -16,7 +16,7 @@ const HelpLink = styled(Link)`
   display: flex;
   align-self: center;
   align-items: center;
-  margin-top: 24px;
+  margin-top: 30px;
 `;
 
 const ConnectModal: React.FC<Props> = ({ login, onDismiss = () => null }) => (

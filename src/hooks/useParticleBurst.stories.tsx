@@ -15,10 +15,10 @@ export const WithSelector: React.FC = () => {
 
   return (
     <div style={{ padding: "32px" }}>
-      <Button type="button" mr="16px">
+      <Button type="button" mr="22px">
         Click Me
       </Button>
-      <Button type="button" variant="secondary" mr="16px">
+      <Button type="button" variant="secondary" mr="22px">
         Or Me
       </Button>
       <Button type="button" variant="tertiary">

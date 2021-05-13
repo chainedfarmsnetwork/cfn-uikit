@@ -67,27 +67,27 @@ export const links = [
 
 export const socials = [
   {
+    label: "Twitter",
+    icon: "TwitterIcon",
+    href: "https://twitter.com/RdyxDefi",
+  },
+  {
     label: "Telegram",
     icon: "TelegramIcon",
     items: [
       {
         label: "English",
-        href: "https://t.me/RdyxSwapOfficial",
+        href: "https://t.me/rdyxdefi",
       },
       {
         label: "Announcements",
-        href: "https://t.me/Rdyxswapannouncements",
+        href: "https://t.me/rdyxdefiann",
       },
     ],
-  },
-  {
-    label: "Twitter",
-    icon: "TwitterIcon",
-    href: "https://twitter.com/Rdyxswap",
   },
 ];
 
 export const MENU_HEIGHT = 64;
 export const MENU_ENTRY_HEIGHT = 48;
-export const SIDEBAR_WIDTH_FULL = 240;
+export const SIDEBAR_WIDTH_FULL = 290;
 export const SIDEBAR_WIDTH_REDUCED = 56;

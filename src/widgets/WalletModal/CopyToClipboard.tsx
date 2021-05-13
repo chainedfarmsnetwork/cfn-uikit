@@ -23,7 +23,7 @@ const Tooltip = styled.div<{ isTooltipDisplayed: boolean }>`
   text-align: center;
   background-color: ${({ theme }) => theme.colors.contrast};
   color: ${({ theme }) => theme.colors.invertedContrast};
-  border-radius: 16px;
+  border-radius: 5px;
   opacity: 0.7;
 `;
 
@@ -46,7 +46,7 @@ const CopyToClipboard: React.FC<Props> = ({ toCopy, children, ...props }) => {
       {...props}
     >
       {children}
-      <CopyIcon width="20px" color="primary" ml="4px" />
+      <CopyIcon width="26px" color="primary" ml="4px" />
       <Tooltip isTooltipDisplayed={isTooltipDisplayed}>Copied</Tooltip>
     </StyleButton>
   );

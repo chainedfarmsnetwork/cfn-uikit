@@ -11,7 +11,7 @@ const Row = styled.div`
   margin-bottom: 32px;
 
   & > div {
-    margin-right: 16px;
+    margin-right: 22px;
   }
 `;
 
@@ -53,7 +53,7 @@ export const WithIcon: React.FC = () => {
       </Row>
       <Row>
         {Object.keys(variants).map((variant) => (
-          <Tag key={variant} variant={variants[variant]} endIcon={<RemoveIcon width="14px" />}>
+          <Tag key={variant} variant={variants[variant]} endIcon={<RemoveIcon width="20px" />}>
             End Icon
           </Tag>
         ))}
@@ -64,7 +64,7 @@ export const WithIcon: React.FC = () => {
             key={variant}
             variant={variants[variant]}
             startIcon={<CommunityIcon />}
-            endIcon={<RemoveIcon width="14px" />}
+            endIcon={<RemoveIcon width="20px" />}
           >
             Start & End Icon
           </Tag>

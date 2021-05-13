@@ -175,7 +175,7 @@ export const WithProfile: React.FC = () => {
 
 export const MenuEntryComponent: React.FC = () => {
   return (
-    <Flex justifyContent="space-between" p="16px" style={{ backgroundColor: "wheat" }}>
+    <Flex justifyContent="space-between" p="22px" style={{ backgroundColor: "wheat" }}>
       <MenuEntry>Default</MenuEntry>
       <MenuEntry secondary>Secondary</MenuEntry>
       <MenuEntry isActive>isActive</MenuEntry>

@@ -30,7 +30,7 @@ export const ImageResponsive: React.FC = () => {
 export const Background: React.FC = () => {
   return (
     <div>
-      <BackgroundImage src="https://via.placeholder.com/800x400" width={800} height={400} mr="16px" />
+      <BackgroundImage src="https://via.placeholder.com/800x400" width={800} height={400} mr="22px" />
       <div>Background Image</div>
     </div>
   );
@@ -39,7 +39,7 @@ export const Background: React.FC = () => {
 export const BackgroundResponsive: React.FC = () => {
   return (
     <div>
-      <BackgroundImage src="https://via.placeholder.com/800x400" width={800} height={400} responsive mr="16px" />
+      <BackgroundImage src="https://via.placeholder.com/800x400" width={800} height={400} responsive mr="22px" />
       <div>Background Image</div>
     </div>
   );
@@ -54,8 +54,8 @@ export const LazyImages: React.FC = () => {
           src={`https://via.placeholder.com/${150 + index}`}
           width={150}
           height={150}
-          mb="16px"
-          mr="16px"
+          mb="22px"
+          mr="22px"
         />
       ))}
     </Flex>
@@ -71,8 +71,8 @@ export const LazyBackgrounds: React.FC = () => {
           src={`https://via.placeholder.com/${150 + index}`}
           width={150}
           height={150}
-          mb="16px"
-          mr="16px"
+          mb="22px"
+          mr="22px"
         />
       ))}
     </Flex>

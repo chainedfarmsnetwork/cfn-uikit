@@ -62,7 +62,7 @@ it("renders correctly", () => {
                 class="sc-dlfnbm esrYrS"
                 color="textSubtle"
                 viewBox="0 0 24 24"
-                width="24px"
+                width="30px"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
@@ -79,7 +79,7 @@ it("renders correctly", () => {
                 class="sc-dlfnbm cqTLJf mobile-icon"
                 color="text"
                 viewBox="0 0 32 32"
-                width="20px"
+                width="26px"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
@@ -111,7 +111,7 @@ it("renders correctly", () => {
                 class="sc-dlfnbm cqTLJf desktop-icon"
                 color="text"
                 viewBox="0 0 160 26"
-                width="20px"
+                width="26px"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <path
@@ -220,7 +220,7 @@ it("renders correctly", () => {
                     class="sc-dlfnbm fDSbid"
                     color="text"
                     viewBox="0 0 24 24"
-                    width="24px"
+                    width="30px"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
@@ -245,7 +245,7 @@ it("renders correctly", () => {
                     class="sc-dlfnbm fDSbid"
                     color="text"
                     viewBox="0 0 24 24"
-                    width="24px"
+                    width="30px"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
@@ -263,7 +263,7 @@ it("renders correctly", () => {
                     class="sc-dlfnbm cqTLJf"
                     color="text"
                     viewBox="0 0 24 24"
-                    width="20px"
+                    width="26px"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
@@ -286,7 +286,7 @@ it("renders correctly", () => {
                     class="sc-dlfnbm fDSbid"
                     color="text"
                     viewBox="0 0 24 24"
-                    width="24px"
+                    width="30px"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
@@ -324,7 +324,7 @@ it("renders correctly", () => {
                     class="sc-dlfnbm fDSbid"
                     color="text"
                     viewBox="0 0 24 24"
-                    width="24px"
+                    width="30px"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
@@ -354,7 +354,7 @@ it("renders correctly", () => {
                     class="sc-dlfnbm fDSbid"
                     color="text"
                     viewBox="0 0 24 24"
-                    width="24px"
+                    width="30px"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
@@ -381,7 +381,7 @@ it("renders correctly", () => {
                     class="sc-dlfnbm fDSbid"
                     color="text"
                     viewBox="0 0 24 24"
-                    width="24px"
+                    width="30px"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
@@ -406,7 +406,7 @@ it("renders correctly", () => {
                     class="sc-dlfnbm fDSbid"
                     color="text"
                     viewBox="0 0 24 24"
-                    width="24px"
+                    width="30px"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
@@ -422,7 +422,7 @@ it("renders correctly", () => {
                     class="sc-dlfnbm cqTLJf"
                     color="text"
                     viewBox="0 0 24 24"
-                    width="20px"
+                    width="26px"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
@@ -445,7 +445,7 @@ it("renders correctly", () => {
                     class="sc-dlfnbm fDSbid"
                     color="text"
                     viewBox="0 0 24 24"
-                    width="24px"
+                    width="30px"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
@@ -466,7 +466,7 @@ it("renders correctly", () => {
                     class="sc-dlfnbm cqTLJf"
                     color="text"
                     viewBox="0 0 24 24"
-                    width="20px"
+                    width="26px"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
@@ -489,7 +489,7 @@ it("renders correctly", () => {
                     class="sc-dlfnbm fDSbid"
                     color="text"
                     viewBox="0 0 24 24"
-                    width="24px"
+                    width="30px"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
@@ -505,7 +505,7 @@ it("renders correctly", () => {
                     class="sc-dlfnbm cqTLJf"
                     color="text"
                     viewBox="0 0 24 24"
-                    width="20px"
+                    width="26px"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
@@ -528,7 +528,7 @@ it("renders correctly", () => {
                     class="sc-dlfnbm fDSbid"
                     color="text"
                     viewBox="0 0 24 24"
-                    width="24px"
+                    width="30px"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
@@ -544,7 +544,7 @@ it("renders correctly", () => {
                     class="sc-dlfnbm cqTLJf"
                     color="text"
                     viewBox="0 0 24 24"
-                    width="20px"
+                    width="26px"
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
@@ -568,7 +568,7 @@ it("renders correctly", () => {
                   class="sc-dlfnbm cqTLJf"
                   color="text"
                   viewBox="0 0 24 24"
-                  width="20px"
+                  width="26px"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path

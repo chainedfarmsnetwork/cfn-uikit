@@ -25,7 +25,7 @@ const StyledNav = styled.nav<{ showMenu: boolean }>`
   justify-content: space-between;
   align-items: center;
   padding-left: 8px;
-  padding-right: 16px;
+  padding-right: 22px;
   width: 100%;
   height: ${MENU_HEIGHT}px;
   background-color: ${({ theme }) => theme.nav.background};
@@ -131,7 +131,7 @@ const Menu: React.FC<NavProps> = ({
           isMobile={isMobile}
           showMenu={showMenu}
           isDark={isDark}
-          toggleTheme={toggleTheme}
+          // toggleTheme={toggleTheme}
           langs={langs}
           setLang={setLang}
           currentLang={currentLang}
