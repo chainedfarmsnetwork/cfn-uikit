@@ -77,12 +77,12 @@ const PanelFooter: React.FC<Props> = ({
 
   return (
     <Container>
-      <SettingsEntry>
-        <Flex>
+      <SettingsEntry style={{ justifyContent: "center" }}>
+        <Flex style={{ width: "100%", justifyContent: "space-between" }}>
           {socials.map((social, index) => {
             const Icon = Icons[social.icon];
             const iconProps = { width: "30px", color: "textSubtle", style: { cursor: "pointer" } };
-            const mr = index < socials.length - 1 ? "30px" : 0;
+            const mr = index < socials.length - 1 ? "20px" : 0;
             if (social.items) {
               return (
                 <Dropdown key={social.label} position="top" target={<Icon {...iconProps} mr={mr} />}>
@@ -96,7 +96,7 @@ const PanelFooter: React.FC<Props> = ({
             }
             return (
               <Link external key={social.label} href={social.href} aria-label={social.label} mr={mr}>
-                <Icon {...iconProps} />
+                <Icon {...iconProps} style={{ verticalAlign: "middle" }} />
               </Link>
             );
           })}
