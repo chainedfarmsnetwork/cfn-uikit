@@ -78,7 +78,7 @@ const PanelFooter: React.FC<Props> = ({
   return (
     <Container>
       <SettingsEntry style={{ justifyContent: "center" }}>
-        <Flex style={{ width: "100%", justifyContent: "space-between" }}>
+        <Flex style={{ width: "100%", justifyContent: "center" }}>
           {socials.map((social, index) => {
             const Icon = Icons[social.icon];
             const iconProps = { width: "30px", color: "textSubtle", style: { cursor: "pointer" } };
