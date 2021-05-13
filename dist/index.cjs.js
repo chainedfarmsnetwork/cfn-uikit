@@ -2093,7 +2093,7 @@ var socials = [
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/chainedfarmsnetwork",
+        href: "https://twitter.com/ChainedFarmsNTW",
     },
     {
         label: "Telegram",
