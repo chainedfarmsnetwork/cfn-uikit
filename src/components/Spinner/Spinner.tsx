@@ -18,7 +18,7 @@ const zoomInOut = keyframes`{
         transform: scale(1,1);
     }
     50% {
-        transform: scale(1.2,1.2);
+        transform: scale(2,2);
     }
     100% {
         transform: scale(1,1);
@@ -41,7 +41,7 @@ const RotatingPancakeIcon = styled(SpinnerIcon)`
   position: absolute;
   top: 0;
   left: 0;
-  animation: ${zoomInOut} 2s linear infinite;
+  animation: ${zoomInOut} 1s linear infinite;
   transform: translate3d(0, 0, 0);
 `;
 

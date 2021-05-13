@@ -1129,13 +1129,13 @@ var Progress = function (_a) {
 //     transform: rotate(360deg);
 //   }
 // `;
-var zoomInOut = keyframes(templateObject_1$j || (templateObject_1$j = __makeTemplateObject(["{\n    0% {\n        transform: scale(1,1);\n    }\n    50% {\n        transform: scale(1.2,1.2);\n    }\n    100% {\n        transform: scale(1,1);\n    }\n}"], ["{\n    0% {\n        transform: scale(1,1);\n    }\n    50% {\n        transform: scale(1.2,1.2);\n    }\n    100% {\n        transform: scale(1,1);\n    }\n}"])));
+var zoomInOut = keyframes(templateObject_1$j || (templateObject_1$j = __makeTemplateObject(["{\n    0% {\n        transform: scale(1,1);\n    }\n    50% {\n        transform: scale(2,2);\n    }\n    100% {\n        transform: scale(1,1);\n    }\n}"], ["{\n    0% {\n        transform: scale(1,1);\n    }\n    50% {\n        transform: scale(2,2);\n    }\n    100% {\n        transform: scale(1,1);\n    }\n}"])));
 var SpinnerIcon = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 96 96" }, props),
         React.createElement("image", { width: "96", height: "96", href: "images/cfn/9.png" })));
 };
 var Container$3 = styled.div(templateObject_2$9 || (templateObject_2$9 = __makeTemplateObject(["\n  position: relative;\n"], ["\n  position: relative;\n"])));
-var RotatingPancakeIcon = styled(SpinnerIcon)(templateObject_3$6 || (templateObject_3$6 = __makeTemplateObject(["\n  position: absolute;\n  top: 0;\n  left: 0;\n  animation: ", " 2s linear infinite;\n  transform: translate3d(0, 0, 0);\n"], ["\n  position: absolute;\n  top: 0;\n  left: 0;\n  animation: ", " 2s linear infinite;\n  transform: translate3d(0, 0, 0);\n"])), zoomInOut);
+var RotatingPancakeIcon = styled(SpinnerIcon)(templateObject_3$6 || (templateObject_3$6 = __makeTemplateObject(["\n  position: absolute;\n  top: 0;\n  left: 0;\n  animation: ", " 1s linear infinite;\n  transform: translate3d(0, 0, 0);\n"], ["\n  position: absolute;\n  top: 0;\n  left: 0;\n  animation: ", " 1s linear infinite;\n  transform: translate3d(0, 0, 0);\n"])), zoomInOut);
 var Spinner = function (_a) {
     var _b = _a.size, size = _b === void 0 ? 128 : _b;
     return (React.createElement(Container$3, null,
@@ -2200,13 +2200,17 @@ var PanelFooter = function (_a) {
         React.createElement(SettingsEntry, { style: { justifyContent: "center" } },
             React.createElement(Flex, { style: { width: "100%", justifyContent: "center" } }, socials.map(function (social, index) {
                 var Icon = Icons[social.icon];
-                var iconProps = { width: "30px", color: "textSubtle", style: { cursor: "pointer" } };
+                var iconProps = {
+                    width: "30px",
+                    color: "textSubtle",
+                    style: { cursor: "pointer", verticalAlign: "middle" },
+                };
                 var mr = index < socials.length - 1 ? "20px" : 0;
                 if (social.items) {
                     return (React.createElement(Dropdown, { key: social.label, position: "top", target: React.createElement(Icon, __assign({}, iconProps, { mr: mr })) }, social.items.map(function (item) { return (React.createElement(Link, { external: true, key: item.label, href: item.href, "aria-label": item.label, color: "textSubtle" }, item.label)); })));
                 }
                 return (React.createElement(Link, { external: true, key: social.label, href: social.href, "aria-label": social.label, mr: mr },
-                    React.createElement(Icon, __assign({}, iconProps, { style: { verticalAlign: "middle" } }))));
+                    React.createElement(Icon, __assign({}, iconProps))));
             }))),
         React.createElement(SocialEntry, null, cakePriceUsd ? (React.createElement(PriceLink, { href: priceLink, target: "_blank", style: { margin: "auto" } },
             React.createElement(Icon$A, { width: "30px", mr: "8px" }),

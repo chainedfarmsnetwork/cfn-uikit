@@ -81,7 +81,11 @@ const PanelFooter: React.FC<Props> = ({
         <Flex style={{ width: "100%", justifyContent: "center" }}>
           {socials.map((social, index) => {
             const Icon = Icons[social.icon];
-            const iconProps = { width: "30px", color: "textSubtle", style: { cursor: "pointer" } };
+            const iconProps = {
+              width: "30px",
+              color: "textSubtle",
+              style: { cursor: "pointer", verticalAlign: "middle" },
+            };
             const mr = index < socials.length - 1 ? "20px" : 0;
             if (social.items) {
               return (
@@ -96,7 +100,7 @@ const PanelFooter: React.FC<Props> = ({
             }
             return (
               <Link external key={social.label} href={social.href} aria-label={social.label} mr={mr}>
-                <Icon {...iconProps} style={{ verticalAlign: "middle" }} />
+                <Icon {...iconProps} />
               </Link>
             );
           })}
