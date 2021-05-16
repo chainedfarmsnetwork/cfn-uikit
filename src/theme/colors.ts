@@ -4,7 +4,7 @@ export const baseColors = {
   failure: "#ED4B9E",
   primary: "#E8B100", // i.e Buttons primary
   primaryBright: "#A5753A", // i.e Buttons hover (bright ?)
-  primaryDark: "#660000", // i.e Buttons hover (dark ?)
+  primaryDark: "#E8B100", // i.e Buttons hover (dark ?)
   secondary: "#E8B100", // Hovers
   success: "#31D0AA",
   warning: "#FFB237",
@@ -47,7 +47,7 @@ export const darkColors: Colors = {
   text: "#F9F1E0",
   textDisabled: "#666171",
   textSubtle: "#E8B100",
-  borderColor: "#524B63",
+  borderColor: "#343135",
   card: "#27262c",
   gradients: {
     bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
