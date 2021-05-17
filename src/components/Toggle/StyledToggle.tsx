@@ -4,7 +4,7 @@ export const Handle = styled.div`
   background-color: ${({ theme }) => theme.toggle.handleBackground};
   border-radius: 5px;
   cursor: pointer;
-  height: 32px;
+  height: 24px;
   left: 4px;
   position: absolute;
   top: 4px;
@@ -41,7 +41,7 @@ const StyledToggle = styled.div<{ checked: boolean }>`
   box-shadow: ${({ theme }) => theme.shadows.inset};
   cursor: pointer;
   display: inline-flex;
-  height: 40px;
+  height: 32px;
   position: relative;
   transition: background-color 200ms;
   width: 72px;
