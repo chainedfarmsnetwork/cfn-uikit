@@ -10,11 +10,11 @@ export const links = [
     items: [
       {
         label: "Exchange",
-        href: "https://exchange.Rdyxswap.finance",
+        href: "https://exchange.Chained Farms Networkswap.finance",
       },
       {
         label: "Liquidity",
-        href: "https://exchange.Rdyxswap.finance/#/pool",
+        href: "https://exchange.Chained Farms Networkswap.finance/#/pool",
       },
     ],
   },
@@ -51,15 +51,15 @@ export const links = [
     items: [
       {
         label: "Github",
-        href: "https://github.com/RdyxDefi/",
+        href: "https://github.com/Chained Farms NetworkDefi/",
       },
       {
         label: "Docs",
-        href: "https://Rdyxswap.gitbook.io/Rdyx-swap/",
+        href: "https://Chained Farms Networkswap.gitbook.io/Chained Farms Network-swap/",
       },
       {
         label: "Blog",
-        href: "https://Rdyx-swap.medium.com/",
+        href: "https://Chained Farms Network-swap.medium.com/",
       },
     ],
   },
@@ -86,7 +86,11 @@ export const socials = [
     icon: "TelegramIcon",
     items: [
       {
-        label: "English",
+        label: "Discord",
+        href: "https://discord.gg/vGy5tVHCde",
+      },
+      {
+        label: "Telegram",
         href: "https://t.me/chainedfarmsnetwork",
       },
       {
