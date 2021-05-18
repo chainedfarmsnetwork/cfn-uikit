@@ -2100,10 +2100,6 @@ var socials = [
         icon: "TelegramIcon",
         items: [
             {
-                label: "Discord",
-                href: "https://discord.gg/vGy5tVHCde",
-            },
-            {
                 label: "Telegram",
                 href: "https://t.me/chainedfarmsnetwork",
             },
