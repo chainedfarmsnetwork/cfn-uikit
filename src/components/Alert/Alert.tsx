@@ -61,7 +61,7 @@ const Details = styled.div<{ hasHandler: boolean }>`
 `;
 
 const CloseHandler = styled.div`
-  border-radius: 0 22px 22px 0;
+  border-radius: 0 5px 5px 0;
   right: 8px;
   position: absolute;
   top: 8px;
