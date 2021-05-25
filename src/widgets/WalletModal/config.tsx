@@ -1,7 +1,7 @@
 import Metamask from "./icons/Metamask";
 // import MathWallet from "./icons/MathWallet";
 // import TokenPocket from "./icons/TokenPocket";
-// import TrustWallet from "./icons/TrustWallet";
+import TrustWallet from "./icons/TrustWallet";
 import WalletConnect from "./icons/WalletConnect";
 import BinanceChain from "./icons/BinanceChain";
 import { Config } from "./types";
@@ -12,11 +12,11 @@ const connectors: Config[] = [
     icon: Metamask,
     connectorId: "injected",
   },
-  // {
-  //   title: "TrustWallet",
-  //   icon: TrustWallet,
-  //   connectorId: "injected",
-  // },
+  {
+    title: "TrustWallet",
+    icon: TrustWallet,
+    connectorId: "injected",
+  },
   // {
   //   title: "MathWallet",
   //   icon: MathWallet,
