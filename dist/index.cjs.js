@@ -2538,7 +2538,7 @@ var MobileOnlyOverlay = styled__default['default'](Overlay)(templateObject_5 || 
 });
 var Menu = function (_a) {
     var _b;
-    var account = _a.account, login = _a.login, logout = _a.logout, isDark = _a.isDark; _a.toggleTheme; var langs = _a.langs, setLang = _a.setLang, currentLang = _a.currentLang, cakePriceUsd = _a.cakePriceUsd, links = _a.links, priceLink = _a.priceLink, profile = _a.profile, children = _a.children;
+    var account = _a.account, login = _a.login, logout = _a.logout, isDark = _a.isDark; _a.toggleTheme; var langs = _a.langs, setLang = _a.setLang, currentLang = _a.currentLang, CFNPriceUsd = _a.CFNPriceUsd, cakePriceUsd = _a.cakePriceUsd, links = _a.links, CFNPriceLink = _a.CFNPriceLink, priceLink = _a.priceLink, profile = _a.profile, children = _a.children;
     var isXl = useMatchBreakpoints().isXl;
     var isMobile = isXl === false;
     var _c = React.useState(!isMobile), isPushed = _c[0], setIsPushed = _c[1];
