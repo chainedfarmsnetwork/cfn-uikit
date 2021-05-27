@@ -64,6 +64,7 @@ const PanelFooter: React.FC<Props> = ({
   currentLang,
   langs,
   setLang,
+  CFNPriceLink,
   priceLink,
 }) => {
   if (!isPushed) {
@@ -140,7 +141,7 @@ const PanelFooter: React.FC<Props> = ({
       <SocialEntry>
         <Flex style={{ width: '100%', justifyContent: 'space-between'}}>
         {CFNPriceUsd ? (
-          <PriceLink href={priceLink} target="_blank" style={{ margin: "auto" }}>
+          <PriceLink href={CFNPriceLink} target="_blank" style={{ margin: "auto" }}>
             <PancakeRoundIcon width="30px" mr="8px" />
             <Text color="textSubtle" bold>{`$${CFNPriceUsd.toFixed(3)}`}</Text>
           </PriceLink>

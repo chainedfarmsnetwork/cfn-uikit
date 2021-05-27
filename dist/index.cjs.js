@@ -2225,7 +2225,7 @@ var PriceLink = styled__default['default'].a(templateObject_2$3 || (templateObje
 var SettingsEntry = styled__default['default'].div(templateObject_3$1 || (templateObject_3$1 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 8px;\n"], ["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 8px;\n"])), MENU_ENTRY_HEIGHT);
 var SocialEntry = styled__default['default'].div(templateObject_4$1 || (templateObject_4$1 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 22px;\n"], ["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 22px;\n"])), MENU_ENTRY_HEIGHT);
 var PanelFooter = function (_a) {
-    var isPushed = _a.isPushed, pushNav = _a.pushNav; _a.toggleTheme; _a.isDark; var CFNPriceUsd = _a.CFNPriceUsd, cakePriceUsd = _a.cakePriceUsd; _a.currentLang; _a.langs; _a.setLang; var priceLink = _a.priceLink;
+    var isPushed = _a.isPushed, pushNav = _a.pushNav; _a.toggleTheme; _a.isDark; var CFNPriceUsd = _a.CFNPriceUsd, cakePriceUsd = _a.cakePriceUsd; _a.currentLang; _a.langs; _a.setLang; var CFNPriceLink = _a.CFNPriceLink, priceLink = _a.priceLink;
     if (!isPushed) {
         return (React__default['default'].createElement(Container, null,
             React__default['default'].createElement(IconButton, { variant: "text", onClick: function () { return pushNav(true); } },
@@ -2249,7 +2249,7 @@ var PanelFooter = function (_a) {
             }))),
         React__default['default'].createElement(SocialEntry, null,
             React__default['default'].createElement(Flex, { style: { width: '100%', justifyContent: 'space-between' } },
-                CFNPriceUsd ? (React__default['default'].createElement(PriceLink, { href: priceLink, target: "_blank", style: { margin: "auto" } },
+                CFNPriceUsd ? (React__default['default'].createElement(PriceLink, { href: CFNPriceLink, target: "_blank", style: { margin: "auto" } },
                     React__default['default'].createElement(Icon$A, { width: "30px", mr: "8px" }),
                     React__default['default'].createElement(Text, { color: "textSubtle", bold: true }, "$" + CFNPriceUsd.toFixed(3)))) : (React__default['default'].createElement(Skeleton, { width: 80, height: 24 })),
                 cakePriceUsd ? (React__default['default'].createElement(PriceLink, { href: priceLink, target: "_blank", style: { margin: "auto" } },
