@@ -397,7 +397,7 @@ var Icon$B = function (props) {
 };
 
 var Icon$A = function (props) {
-    tokenImgLink = props.tokenImgLink ? props.tokenImgLink : "images/cfn/9.png";
+    string = props.tokenImgLink || "images/cfn/9.png";
     return (React.createElement(Svg, __assign({ viewBox: "0 0 90 90" }, props),
         React.createElement("image", { width: 90, height: 90, href: { tokenImgLink: tokenImgLink } })));
 };
@@ -2248,7 +2248,7 @@ var PanelFooter = function (_a) {
                     React.createElement(Icon$A, { width: "30px", mr: "8px" }),
                     React.createElement(Text, { color: "textSubtle", bold: true }, "$" + CFNPriceUsd.toFixed(3)))) : (React.createElement(Skeleton, { width: 80, height: 24 })),
                 cakePriceUsd ? (React.createElement(PriceLink, { href: priceLink, target: "_blank", style: { margin: "auto" } },
-                    React.createElement(Icon$A, { imgLink: tokenImgLink, width: "30px", mr: "8px" }),
+                    React.createElement(Icon$A, { tokenImgLink: tokenImgLink, width: "30px", mr: "8px" }),
                     React.createElement(Text, { color: "textSubtle", bold: true }, "$" + cakePriceUsd.toFixed(3)))) : (React.createElement(Skeleton, { width: 80, height: 24 }))))));
 };
 var templateObject_1$8, templateObject_2$3, templateObject_3$1, templateObject_4$1;

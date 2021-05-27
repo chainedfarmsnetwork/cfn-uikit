@@ -44,6 +44,7 @@ export interface PanelProps {
     links: Array<MenuEntry>;
     CFNPriceLink: string;
     priceLink: string;
+    tokenImgLink?: string;
 }
 export interface NavProps extends PanelProps {
     account?: string;

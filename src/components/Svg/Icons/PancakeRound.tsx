@@ -3,9 +3,11 @@ import Svg from "../Svg";
 import { SvgProps } from "../types";
 
 const Icon: React.FC<SvgProps> = (props) => {
+  tokenImgLink: string = props.tokenImgLink || "images/cfn/9.png";
+
   return (
     <Svg viewBox="0 0 90 90" {...props}>
-      <image width={90} height={90} href={{ props.tokenImgLink || "images/cfn/9.png" }} />
+      <image width={90} height={90} href={{ tokenImgLink }} />
     </Svg>
   );
 };
