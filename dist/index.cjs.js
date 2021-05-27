@@ -410,9 +410,9 @@ var Icon$B = function (props) {
 };
 
 var Icon$A = function (props) {
-    var tokenImgLink = props.tokenImgLink || "images/cfn/9.png";
+    var tokenImgLink = props['tokenImgLink'] || "images/cfn/9.png";
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 90 90" }, props),
-        React__default['default'].createElement("image", { width: 90, height: 90, href: { tokenImgLink: tokenImgLink } })));
+        React__default['default'].createElement("image", { width: 90, height: 90, href: tokenImgLink })));
 };
 
 var Icon$z = function (props) {
