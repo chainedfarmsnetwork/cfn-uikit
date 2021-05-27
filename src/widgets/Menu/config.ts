@@ -67,14 +67,18 @@ export const links = [
 
 export const socials = [
   {
-    label: 'Github',
-    icon: 'NftIcon',
-    href: 'https://github.com/chainedfarmsnetwork/',
-  },
-  {
     label: "GitBook",
     icon: "BookIcon",
-    href: "https://chainedfarmsnetwork.gitbook.io/cfn/",
+    items: [
+      {
+        label: 'GitHub',
+        href: 'https://github.com/chainedfarmsnetwork/',
+      },
+      {
+        label: 'GitBook',
+        href: 'https://chainedfarmsnetwork.gitbook.io/cfn/',
+      }
+    ]
   },
   {
     label: "Medium",
@@ -89,16 +93,17 @@ export const socials = [
   {
     label: "Telegram",
     icon: "TelegramIcon",
-    items: [
-      {
-        label: "Telegram",
-        href: "https://t.me/chainedfarmsnetwork",
-      },
-      {
-        label: "Announcements",
-        href: "https://t.me/chainedfarmsnetworkann",
-      },
-    ],
+    href: "https://t.me/chainedfarmsnetwork",
+    // items: [
+    //   {
+    //     label: "Telegram",
+    //     href: "https://t.me/chainedfarmsnetwork",
+    //   },
+    //   {
+    //     label: "Announcements",
+    //     href: "https://t.me/chainedfarmsnetworkann",
+    //   },
+    // ],
   },
 ];
 

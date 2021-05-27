@@ -146,9 +146,7 @@ const PanelFooter: React.FC<Props> = ({
             <PancakeRoundIcon width="30px" mr="8px" />
             <Text color="textSubtle" bold>{`$${CFNPriceUsd.toFixed(3)}`}</Text>
           </PriceLink>
-        ) : (
-          <Skeleton width={80} height={24} />
-        )}
+        ) : null}
         {cakePriceUsd ? (
           <PriceLink href={priceLink} target="_blank" style={{ margin: "auto" }}>
             <PancakeRoundIcon tokenImgLink={tokenImgLink} width="30px" mr="8px" />
