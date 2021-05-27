@@ -26,11 +26,9 @@ const zoomInOut = keyframes`{
 }`;
 
 const SpinnerIcon: React.FC<SvgProps> = (props) => {
-  const tokenImgLink: string = props.tokenImgLink || "images/cfn/9.png";
-
   return (
     <Svg viewBox="0 0 96 96" {...props}>
-      <image width="96" height="96" href={ tokenImgLink } />
+      <image width="96" height="96" href={props.tokenImgLink} />
     </Svg>
   );
 };
@@ -47,10 +45,10 @@ const RotatingPancakeIcon = styled(SpinnerIcon)`
   transform: translate3d(0, 0, 0);
 `;
 
-const Spinner: React.FC<SpinnerProps> = ({ size = 128 }) => {
+const Spinner: React.FC<SpinnerProps> = ({ size = 128, tokenImgLink = "images/cfn/9.png" }) => {
   return (
     <Container>
-      <RotatingPancakeIcon width={`${size * 0.5}px`} />
+      <RotatingPancakeIcon width={`${size * 0.5}px`} href={tokenImgLink} />
     </Container>
   );
 };

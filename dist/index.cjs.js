@@ -1145,16 +1145,15 @@ var Progress = function (_a) {
 // `;
 var zoomInOut = styled.keyframes(templateObject_1$j || (templateObject_1$j = __makeTemplateObject(["{\n    0% {\n        transform: scale(1,1);\n    }\n    50% {\n        transform: scale(2,2);\n    }\n    100% {\n        transform: scale(1,1);\n    }\n}"], ["{\n    0% {\n        transform: scale(1,1);\n    }\n    50% {\n        transform: scale(2,2);\n    }\n    100% {\n        transform: scale(1,1);\n    }\n}"])));
 var SpinnerIcon = function (props) {
-    var tokenImgLink = props.tokenImgLink || "images/cfn/9.png";
     return (React__default['default'].createElement(Svg, __assign({ viewBox: "0 0 96 96" }, props),
-        React__default['default'].createElement("image", { width: "96", height: "96", href: tokenImgLink })));
+        React__default['default'].createElement("image", { width: "96", height: "96", href: props.tokenImgLink })));
 };
 var Container$3 = styled__default['default'].div(templateObject_2$9 || (templateObject_2$9 = __makeTemplateObject(["\n  position: relative;\n"], ["\n  position: relative;\n"])));
 var RotatingPancakeIcon = styled__default['default'](SpinnerIcon)(templateObject_3$6 || (templateObject_3$6 = __makeTemplateObject(["\n  position: absolute;\n  top: 0;\n  left: 0;\n  animation: ", " 1s linear infinite;\n  transform: translate3d(0, 0, 0);\n"], ["\n  position: absolute;\n  top: 0;\n  left: 0;\n  animation: ", " 1s linear infinite;\n  transform: translate3d(0, 0, 0);\n"])), zoomInOut);
 var Spinner = function (_a) {
-    var _b = _a.size, size = _b === void 0 ? 128 : _b;
+    var _b = _a.size, size = _b === void 0 ? 128 : _b, _c = _a.tokenImgLink, tokenImgLink = _c === void 0 ? "images/cfn/9.png" : _c;
     return (React__default['default'].createElement(Container$3, null,
-        React__default['default'].createElement(RotatingPancakeIcon, { width: size * 0.5 + "px" })));
+        React__default['default'].createElement(RotatingPancakeIcon, { width: size * 0.5 + "px", href: tokenImgLink })));
 };
 var templateObject_1$j, templateObject_2$9, templateObject_3$6;
 
