@@ -59,6 +59,7 @@ const PanelFooter: React.FC<Props> = ({
   pushNav,
   toggleTheme,
   isDark,
+  CFNPriceUsd,
   cakePriceUsd,
   currentLang,
   langs,
@@ -137,6 +138,15 @@ const PanelFooter: React.FC<Props> = ({
         </Dropdown> */}
       </SettingsEntry>
       <SocialEntry>
+        <Flex style={{ width: '100%', justifyContent: 'space-between'}}>
+        {CFNPriceUsd ? (
+          <PriceLink href={priceLink} target="_blank" style={{ margin: "auto" }}>
+            <PancakeRoundIcon width="30px" mr="8px" />
+            <Text color="textSubtle" bold>{`$${CFNPriceUsd.toFixed(3)}`}</Text>
+          </PriceLink>
+        ) : (
+          <Skeleton width={80} height={24} />
+        )}
         {cakePriceUsd ? (
           <PriceLink href={priceLink} target="_blank" style={{ margin: "auto" }}>
             <PancakeRoundIcon width="30px" mr="8px" />
@@ -145,6 +155,7 @@ const PanelFooter: React.FC<Props> = ({
         ) : (
           <Skeleton width={80} height={24} />
         )}
+        </Flex>
       </SocialEntry>
     </Container>
   );

@@ -2212,7 +2212,7 @@ var PriceLink = styled.a(templateObject_2$3 || (templateObject_2$3 = __makeTempl
 var SettingsEntry = styled.div(templateObject_3$1 || (templateObject_3$1 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 8px;\n"], ["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 8px;\n"])), MENU_ENTRY_HEIGHT);
 var SocialEntry = styled.div(templateObject_4$1 || (templateObject_4$1 = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 22px;\n"], ["\n  display: flex;\n  align-items: center;\n  justify-content: space-between;\n  height: ", "px;\n  padding: 0 22px;\n"])), MENU_ENTRY_HEIGHT);
 var PanelFooter = function (_a) {
-    var isPushed = _a.isPushed, pushNav = _a.pushNav; _a.toggleTheme; _a.isDark; var cakePriceUsd = _a.cakePriceUsd; _a.currentLang; _a.langs; _a.setLang; var priceLink = _a.priceLink;
+    var isPushed = _a.isPushed, pushNav = _a.pushNav; _a.toggleTheme; _a.isDark; var CFNPriceUsd = _a.CFNPriceUsd, cakePriceUsd = _a.cakePriceUsd; _a.currentLang; _a.langs; _a.setLang; var priceLink = _a.priceLink;
     if (!isPushed) {
         return (React.createElement(Container, null,
             React.createElement(IconButton, { variant: "text", onClick: function () { return pushNav(true); } },
@@ -2234,9 +2234,14 @@ var PanelFooter = function (_a) {
                 return (React.createElement(Link, { external: true, key: social.label, href: social.href, "aria-label": social.label, mr: mr },
                     React.createElement(Icon, __assign({}, iconProps))));
             }))),
-        React.createElement(SocialEntry, null, cakePriceUsd ? (React.createElement(PriceLink, { href: priceLink, target: "_blank", style: { margin: "auto" } },
-            React.createElement(Icon$A, { width: "30px", mr: "8px" }),
-            React.createElement(Text, { color: "textSubtle", bold: true }, "$" + cakePriceUsd.toFixed(3)))) : (React.createElement(Skeleton, { width: 80, height: 24 })))));
+        React.createElement(SocialEntry, null,
+            React.createElement(Flex, { style: { width: '100%', justifyContent: 'space-between' } },
+                CFNPriceUsd ? (React.createElement(PriceLink, { href: priceLink, target: "_blank", style: { margin: "auto" } },
+                    React.createElement(Icon$A, { width: "30px", mr: "8px" }),
+                    React.createElement(Text, { color: "textSubtle", bold: true }, "$" + CFNPriceUsd.toFixed(3)))) : (React.createElement(Skeleton, { width: 80, height: 24 })),
+                cakePriceUsd ? (React.createElement(PriceLink, { href: priceLink, target: "_blank", style: { margin: "auto" } },
+                    React.createElement(Icon$A, { width: "30px", mr: "8px" }),
+                    React.createElement(Text, { color: "textSubtle", bold: true }, "$" + cakePriceUsd.toFixed(3)))) : (React.createElement(Skeleton, { width: 80, height: 24 }))))));
 };
 var templateObject_1$8, templateObject_2$3, templateObject_3$1, templateObject_4$1;
 
