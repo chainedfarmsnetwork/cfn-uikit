@@ -24,7 +24,7 @@ export const shadows = {
   active: "0px 0px 0px 1px #0098A1, 0px 0px 4px 8px rgba(31, 199, 212, 0.4)",
   success: "0px 0px 0px 1px #31D0AA, 0px 0px 0px 4px rgba(49, 208, 170, 0.2)",
   warning: "0px 0px 0px 1px #ED4B9E, 0px 0px 0px 4px rgba(237, 75, 158, 0.2)",
-  focus: "0px 0px 0px 1px #E2001A, 0px 0px 0px 4px #E2001A", // IMPORTANT: Change to match theme.primary
+  focus: "0px 0px 0px 1px #68C400, 0px 0px 0px 4px #68C400", // IMPORTANT: Change to match theme.primary
   inset: "inset 0px 2px 2px -1px rgba(74, 74, 104, 0.1)",
 };
 
