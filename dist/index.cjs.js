@@ -2583,7 +2583,7 @@ var Menu = function (_a) {
         React__default['default'].createElement(BodyWrapper, null,
             React__default['default'].createElement(Panel, { isPushed: isPushed, isMobile: isMobile, showMenu: showMenu, isDark: isDark, 
                 // toggleTheme={toggleTheme}
-                langs: langs, setLang: setLang, currentLang: currentLang, cakePriceUsd: cakePriceUsd, pushNav: setIsPushed, links: links, priceLink: priceLink }),
+                langs: langs, setLang: setLang, currentLang: currentLang, CFNPriceUsd: CFNPriceUsd, cakePriceUsd: cakePriceUsd, pushNav: setIsPushed, links: links, CFNPriceLink: CFNPriceLink, priceLink: priceLink }),
             React__default['default'].createElement(Inner, { isPushed: isPushed, showMenu: showMenu }, children),
             React__default['default'].createElement(MobileOnlyOverlay, { show: isPushed, onClick: function () { return setIsPushed(false); }, role: "presentation" }))));
 };

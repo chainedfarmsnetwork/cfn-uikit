@@ -135,9 +135,11 @@ const Menu: React.FC<NavProps> = ({
           langs={langs}
           setLang={setLang}
           currentLang={currentLang}
+          CFNPriceUsd={CFNPriceUsd}
           cakePriceUsd={cakePriceUsd}
           pushNav={setIsPushed}
           links={links}
+          CFNPriceLink={CFNPriceLink}
           priceLink={priceLink}
         />
         <Inner isPushed={isPushed} showMenu={showMenu}>

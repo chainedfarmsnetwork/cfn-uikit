@@ -49,6 +49,7 @@ export interface PanelProps {
   langs: LangType[];
   setLang: (lang: LangType) => void;
   links: Array<MenuEntry>;
+  CFNPriceLink: string;
   priceLink: string;
 }
 
