@@ -3,7 +3,7 @@ import Svg from "../Svg";
 import { SvgProps } from "../types";
 
 const Icon: React.FC<SvgProps> = (props) => {
-  const tokenImgLink = props['tokenImgLink'] || "images/cfn/9.png";
+  const tokenImgLink: string = props.tokenImgLink || "images/cfn/9.png";
 
   return (
     <Svg viewBox="0 0 90 90" {...props}>
