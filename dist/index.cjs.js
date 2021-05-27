@@ -2082,6 +2082,11 @@ var links = [
 ];
 var socials = [
     {
+        label: 'Github',
+        icon: 'NftIcon',
+        href: 'https://github.com/chainedfarmsnetwork/',
+    },
+    {
         label: "GitBook",
         icon: "BookIcon",
         href: "https://chainedfarmsnetwork.gitbook.io/cfn/",
