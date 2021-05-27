@@ -48,7 +48,7 @@ const RotatingPancakeIcon = styled(SpinnerIcon)`
 const Spinner: React.FC<SpinnerProps> = ({ size = 128, tokenImgLink = "images/cfn/9.png" }) => {
   return (
     <Container>
-      <RotatingPancakeIcon width={`${size * 0.5}px`} href={tokenImgLink} />
+      <RotatingPancakeIcon width={`${size * 0.5}px`} tokenImgLink={tokenImgLink} />
     </Container>
   );
 };

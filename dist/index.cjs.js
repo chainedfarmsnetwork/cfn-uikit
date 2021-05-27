@@ -1153,7 +1153,7 @@ var RotatingPancakeIcon = styled__default['default'](SpinnerIcon)(templateObject
 var Spinner = function (_a) {
     var _b = _a.size, size = _b === void 0 ? 128 : _b, _c = _a.tokenImgLink, tokenImgLink = _c === void 0 ? "images/cfn/9.png" : _c;
     return (React__default['default'].createElement(Container$3, null,
-        React__default['default'].createElement(RotatingPancakeIcon, { width: size * 0.5 + "px", href: tokenImgLink })));
+        React__default['default'].createElement(RotatingPancakeIcon, { width: size * 0.5 + "px", tokenImgLink: tokenImgLink })));
 };
 var templateObject_1$j, templateObject_2$9, templateObject_3$6;
 
