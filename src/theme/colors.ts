@@ -2,10 +2,10 @@ import { Colors } from "./types";
 
 export const baseColors = {
   failure: "#ED4B9E",
-  primary: "#006600", // i.e Buttons primary
+  primary: "#C2E000", // i.e Buttons primary
   primaryBright: "#A5753A", // i.e Buttons hover (bright ?)
-  primaryDark: "#006600", // i.e Buttons hover (dark ?)
-  secondary: "#006600", // Hovers
+  primaryDark: "#C2E000", // i.e Buttons hover (dark ?)
+  secondary: "#C2E000", // Hovers
   success: "#31D0AA",
   warning: "#FFB237",
 };
@@ -25,7 +25,7 @@ export const lightColors: Colors = {
   tertiary: "#EFF4F5",
   text: "#69552E",
   textDisabled: "#998c83",
-  textSubtle: "#006600",
+  textSubtle: "#C2E000",
   borderColor: "#E9EAEB",
   card: "#FFFFFF",
   gradients: {
@@ -36,7 +36,7 @@ export const lightColors: Colors = {
 export const darkColors: Colors = {
   ...baseColors,
   ...brandColors,
-  secondary: "#006600",
+  secondary: "#C2E000",
   background: "#343135",
   backgroundDisabled: "#3c3742",
   contrast: "#FFFFFF",
@@ -46,7 +46,7 @@ export const darkColors: Colors = {
   tertiary: "#343135",
   text: "#F9F1E0",
   textDisabled: "#666171",
-  textSubtle: "#006600",
+  textSubtle: "#C2E000",
   borderColor: "#343135",
   card: "#27262c",
   gradients: {
