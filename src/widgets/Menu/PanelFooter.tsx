@@ -140,21 +140,21 @@ const PanelFooter: React.FC<Props> = ({
         </Dropdown> */}
       </SettingsEntry>
       <SocialEntry>
-        <Flex style={{ width: '100%', justifyContent: 'space-between'}}>
-        {CFNPriceUsd ? (
-          <PriceLink href={CFNPriceLink} target="_blank" style={{ margin: "auto" }}>
-            <PancakeRoundIcon width="30px" mr="8px" />
-            <Text color="textSubtle" bold>{`$${CFNPriceUsd.toFixed(3)}`}</Text>
-          </PriceLink>
-        ) : null}
-        {cakePriceUsd ? (
-          <PriceLink href={priceLink} target="_blank" style={{ margin: "auto" }}>
-            <PancakeRoundIcon tokenImgLink={tokenImgLink} width="30px" mr="8px" />
-            <Text color="textSubtle" bold>{`$${cakePriceUsd.toFixed(3)}`}</Text>
-          </PriceLink>
-        ) : (
-          <Skeleton width={80} height={24} />
-        )}
+        <Flex style={{ width: "100%", justifyContent: "space-between" }}>
+          {CFNPriceUsd ? (
+            <PriceLink href={CFNPriceLink} target="_blank" style={{ margin: "auto" }}>
+              <PancakeRoundIcon width="30px" mr="8px" />
+              <Text color="textSubtle" bold>{`$${CFNPriceUsd.toFixed(3)}`}</Text>
+            </PriceLink>
+          ) : null}
+          {cakePriceUsd ? (
+            <PriceLink href={priceLink} target="_blank" style={{ margin: "auto" }}>
+              <PancakeRoundIcon tokenImgLink={tokenImgLink} width="30px" mr="8px" />
+              <Text color="textSubtle" bold>{`$${cakePriceUsd.toFixed(5)}`}</Text>
+            </PriceLink>
+          ) : (
+            <Skeleton width={80} height={24} />
+          )}
         </Flex>
       </SocialEntry>
     </Container>
