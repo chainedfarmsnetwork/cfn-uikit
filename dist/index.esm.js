@@ -2253,13 +2253,13 @@ var PanelFooter = function (_a) {
                     React.createElement(Icon, __assign({}, iconProps))));
             }))),
         React.createElement(SocialEntry, null,
-            React.createElement(Flex, { style: { width: '100%', justifyContent: 'space-between' } },
+            React.createElement(Flex, { style: { width: "100%", justifyContent: "space-between" } },
                 CFNPriceUsd ? (React.createElement(PriceLink, { href: CFNPriceLink, target: "_blank", style: { margin: "auto" } },
                     React.createElement(Icon$A, { width: "30px", mr: "8px" }),
                     React.createElement(Text, { color: "textSubtle", bold: true }, "$" + CFNPriceUsd.toFixed(3)))) : null,
                 cakePriceUsd ? (React.createElement(PriceLink, { href: priceLink, target: "_blank", style: { margin: "auto" } },
                     React.createElement(Icon$A, { tokenImgLink: tokenImgLink, width: "30px", mr: "8px" }),
-                    React.createElement(Text, { color: "textSubtle", bold: true }, "$" + cakePriceUsd.toFixed(3)))) : (React.createElement(Skeleton, { width: 80, height: 24 }))))));
+                    React.createElement(Text, { color: "textSubtle", bold: true }, "$" + cakePriceUsd.toFixed(5)))) : (React.createElement(Skeleton, { width: 80, height: 24 }))))));
 };
 var templateObject_1$8, templateObject_2$3, templateObject_3$1, templateObject_4$1;
 
